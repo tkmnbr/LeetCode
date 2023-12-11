@@ -17,7 +17,8 @@ public:
                 s->next = s->next->next;
                 continue;
             }
-            s = s->next;
+            else 
+                s = s->next;
         }
         return head;
     }
